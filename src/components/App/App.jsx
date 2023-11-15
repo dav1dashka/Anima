@@ -11,15 +11,15 @@ import './App.scss';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Anima/",
     element: <HomePage />,
   },
   {
-    path: "/catalog",
+    path: "/Anima/catalog",
     element: <Catalog />,
   },
   {
-    path: "/product/:itemId",
+    path: "/Anima/product/:itemId",
     element: <ProductPage />,
   },
   {
@@ -31,12 +31,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <>
-      {/* <HomePage /> */}
-      {/* <Catalog /> */}
-      {/* <ProductPage /> */}
       <RouterProvider router={router} />
-      {/* <RouterProvider router={Catalog} /> */}
-
     </>
   )
 }

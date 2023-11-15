@@ -1,4 +1,5 @@
 {
+  "homepage": "https://anima-teal.vercel.app/",
   "name": "starter",
   "description": "Start template with Vite",
   "private": true,

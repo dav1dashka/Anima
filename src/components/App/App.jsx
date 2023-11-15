@@ -1,5 +1,5 @@
 
-import { createBrowserRouter, RouterProvider, } from "react-router-dom";
+import { HashRouter as createBrowserRouter, RouterProvider } from "react-router-dom";
 
 
 import HomePage from '../Home-page/Home-page'

@@ -8,7 +8,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { setMenuOption, setSelectedOption, setSelectedOptionTwo, setCurrentPage, setFilters } from '../../../redux/slices/filterSlice';
 import { fetchCards } from '../../../redux/slices/cardsSlice';
 
-import { useNavigate, NavLink, Link } from 'react-router-dom';
+import { useNavigate, NavLink } from 'react-router-dom';
 import { RxTriangleRight } from 'react-icons/rx'
 
 import Header from "../../Header/Header";
@@ -22,6 +22,17 @@ import Pagination from '../Pagintaion/Pagination';
 import Quest from '../../Quest/Quest'
 
 import './Catalog.scss'
+
+import image01 from '../../../images/product/01.jpg'
+import image02 from '../../../images/product/02.jpg'
+import image03 from '../../../images/product/03.jpg'
+import image04 from '../../../images/product/04.jpg'
+import image05 from '../../../images/product/05.jpg'
+import image06 from '../../../images/product/06.jpg'
+import image07 from '../../../images/product/07.jpg'
+import image08 from '../../../images/product/08.jpg'
+import image09 from '../../../images/product/09.jpg'
+
 
 const Catalog = () => {
     const navigate = useNavigate();

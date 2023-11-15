@@ -1,5 +1,5 @@
 
-import { HashRouter as createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 
 
 import HomePage from '../Home-page/Home-page'
@@ -32,6 +32,7 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
+
     </>
   )
 }

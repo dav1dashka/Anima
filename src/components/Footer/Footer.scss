@@ -1,0 +1,179 @@
+@use "sass:math";
+@import "../../styles/base/mixins";
+@import "../../styles/style";
+
+
+.footer {
+    background: #000;
+    // .footer__container
+
+    &__container {}
+
+    // .footer__top
+
+    &__top {}
+
+    // .footer__bottom
+
+    &__bottom {
+        padding: toRem(20) 0;
+        text-align: center;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            width: 250%;
+            height: toRem(1);
+            background-color: rgba(255, 255, 255, 0.15);
+            top: 0;
+            left: -70%;
+        }
+
+        span {
+            color: #FFF;
+            font-size: toRem(16);
+            line-height: 175%;
+        }
+    }
+}
+
+.top-footer {
+    @include adaptiveValue("padding-top", 40, 30, 320, 1440, 1);
+    @include adaptiveValue("padding-bottom", 30, 20, 320, 1440, 1);
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: toRem(40);
+    row-gap: toRem(20);
+
+    @media (max-width: 588.8px) {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    // .top-footer__item
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    // .top-footer__image
+
+    &__image {}
+
+    // .top-footer__title
+
+    &__title {
+        color: #FFF;
+        font-size: toRem(16);
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: toRem(12);
+    }
+
+    // .top-footer__list
+
+    &__list {}
+
+    // .top-footer__list-item
+
+    &__list-item {
+        color: #FFF;
+        font-size: toRem(16);
+        font-weight: 400;
+        line-height: 160%;
+        opacity: 0.6;
+        transition: opacity 0.3s ease-out;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        &:not(:last-child) {
+            margin-bottom: toRem(4);
+        }
+    }
+
+    // .top-footer__links
+
+    &__links {
+        display: flex;
+        column-gap: toRem(12);
+    }
+
+    // .top-footer__link
+
+    &__link {
+        padding: toRem(8) toRem(8) toRem(8) toRem(8);
+        background-color: #1F1F1F;
+        border-radius: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.3s ease-out;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #393939fb;
+
+        }
+    }
+
+    &__contact {
+        color: #FFF;
+        font-size: toRem(16);
+        font-style: normal;
+        line-height: 160%;
+        font-weight: 400;
+        font-variant-numeric: lining-nums proportional-nums;
+
+        strong {
+            opacity: 0.6;
+            font-weight: 400;
+        }
+
+        &:not(:last-child) {
+            margin-bottom: toRem(4);
+        }
+    }
+}
+
+.logo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: toRem(13);
+    font-weight: 100;
+
+    span {
+        margin-top: toRem(4);
+    }
+
+
+}
+
+
+.menu-footer {}
+
+.catalog {}
+
+.contacts {
+    address {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: toRem(24);
+
+    }
+}
+
+.top-header {
+
+    // .top-header__phonenumber
+
+    &__phonenumber {}
+}

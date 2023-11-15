@@ -1,0 +1,82 @@
+@use "sass:math";
+@import "../../../styles/base/mixins";
+@import "../../../styles/style";
+
+
+.search-top-header {
+
+    @media (max-width: $mobile) {
+        display: none;
+    }
+
+    & svg {
+        height: toRem(20);
+        width: toRem(20);
+    }
+
+    // .search-top-header__icon
+
+    &__icon {
+        position: absolute;
+        transition: transform 0.3s linear;
+        right: 0;
+        z-index: 7;
+
+        @media (max-width: $tablet) {
+            transform: translate(-50%, 70%);
+        }
+
+        &.open {
+            @media (min-width: $tablet) {
+                position: absolute;
+                transform: translateY(200%);
+                transition: transform 0.3s linear 0.2s;
+            }
+        }
+    }
+
+    // .search-top-header__form
+
+    &__form {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateY(-100%);
+        transition: transform 0.5s linear;
+        z-index: 1;
+
+        @media (max-width: $tablet) {
+            position: relative;
+            transform: translateY(20%);
+            z-index: 6;
+
+        }
+
+        &.open {
+            transform: translateY(93%);
+
+            @media (max-width: $tablet) {
+                transform: translateY(20%);
+            }
+        }
+
+
+    }
+
+    // .search-top-header__input
+
+    &__input {
+        background: transparent;
+        border: 1px solid rgba(156, 156, 156, 0.81);
+        box-shadow: 20px 4px 100px 0px rgba(0, 0, 0, 0.10);
+        padding: 8px 8px 8px 16px;
+        width: toRem(263);
+        color: $mainWhiteColor;
+        font-size: $fontSize;
+
+        @media (max-width: $tablet) {
+            width: 100%;
+        }
+
+    }
+}

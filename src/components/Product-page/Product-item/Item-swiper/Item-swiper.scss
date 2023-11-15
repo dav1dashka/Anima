@@ -1,0 +1,76 @@
+@use "sass:math";
+@import "../../../../styles/base/mixins";
+@import "../../../../styles/style";
+
+.swiper-item {}
+
+.item-swiper {
+
+
+    &__slide {
+        width: 110px;
+
+        @include adaptiveValue("height", 103, 1, 992, 1300, 1);
+
+        img {
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+
+        @media (max-width: $tablet) {
+            @include adaptiveValue("height", 150, 20, 320, 992, 1);
+            width: 150px;
+        }
+    }
+}
+
+.product-item-swiper {
+
+    // .product-item-swiper__prev-element
+
+    &__prev-element {
+        top: 0;
+        left: -35px;
+
+        @include adaptiveValue("left", -35, 50, 992, 1100, 1);
+
+    }
+
+    &__prev-element,
+    &__next-element {
+        position: absolute;
+        width: toRem(23);
+        height: 100%;
+        background-color: #F9F9F9;
+        transition: background-color 0.3s ease-out;
+        cursor: pointer;
+
+        @media (max-width: $tablet) {
+            display: none;
+        }
+
+        &:hover {
+            background-color: #ececec;
+        }
+    }
+
+    // .product-item-swiper__icon
+
+    &__icon {
+        color: #6F6F6F;
+    }
+
+    // .product-item-swiper__next-element
+
+    &__next-element {
+        top: 0;
+        right: -38px;
+        @media (max-width: 1100px) {
+            @include adaptiveValue("right", -38, 80, 992, 1100, 1);
+        }
+
+    }
+
+
+}

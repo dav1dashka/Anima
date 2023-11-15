@@ -1,0 +1,187 @@
+@use "sass:math";
+@import "../../../styles/base/mixins";
+@import "../../../styles/style";
+
+.card {
+    flex: 0 1 33.333%;
+
+    @media (max-width: $mobile) {
+        flex-basis: 50%;
+    }
+
+    @media (max-width: 440px) {
+        flex-basis: 100%;
+    }
+
+    @include adaptiveValue("padding-left", 15, 15);
+    @include adaptiveValue("padding-right", 15, 15);
+
+    &.product-page {
+
+        .card__contain {
+            box-shadow: 0px 4px 20px -2px rgba(0, 0, 0, 0.25);
+
+        }
+    }
+
+    // .card__cover
+
+    &__contain {
+        background-color: #fff;
+        box-shadow: 0px 4px 47px -2px rgba(0, 0, 0, 0.25);
+        padding: toRem(15);
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    &__cover {
+        margin: 0 toRem(15);
+        flex-shrink: 1;
+
+    }
+
+    &__cov {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    // .card__image
+
+    &__image {
+        position: relative;
+        margin-bottom: toRem(25);
+        padding: 0px 0px 89% 0px;
+        overflow: hidden;
+
+        @media (min-width: $tablet) {
+            &:hover {
+                & img:last-of-type {
+                    display: block;
+                }
+
+                & img:first-of-type {
+                    display: none;
+                }
+            }
+        }
+
+        & img:last-of-type {
+            display: none;
+        }
+
+
+        img {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        &.discount {
+            &::after {
+                content: 'Акція';
+                position: absolute;
+                top: 0;
+                right: 0;
+                background: rgba(255, 255, 255, 0.45);
+                color: #000;
+                font-family: Raleway;
+                font-size: toRem(17);
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+                padding: toRem(7) toRem(18);
+
+            }
+        }
+    }
+
+    // .card__label
+
+    &__label {
+        color: #28553F;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-size: toRem(14);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 157.143%;
+        margin-bottom: toRem(4);
+    }
+
+    // .card__title
+
+    &__title {
+        color: #000;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-size: toRem(16);
+        font-weight: 500;
+        line-height: 137.5%;
+        margin-bottom: toRem(16);
+
+    }
+
+    // .card__price
+
+    &__price {
+        display: flex;
+        justify-content: space-between;
+        gap: toRem(10);
+        align-items: center;
+        margin-bottom: toRem(20);
+        flex-wrap: wrap;
+    }
+
+    // .card__cur-price
+
+    &__cur-price {
+        color: #28553F;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-size: toRem(20);
+        font-weight: 700;
+    }
+
+    // .card__prev-price
+
+    &__prev-price {
+        color: #949981;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-size: toRem(14);
+        font-weight: 400;
+        text-decoration-line: strikethrough;
+        text-decoration: line-through;
+    }
+
+    // .card__button
+
+    &__button {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        transition: all 0.2s ease-in;
+        flex-grow: 1;
+
+        &:hover {
+            button {
+                background: #fff;
+                color: #28553F;
+            }
+        }
+
+        button {
+            text-align: center;
+            flex-basis: 100%;
+            padding: toRem(10) 0;
+            color: #FFF;
+            font-size: toRem(17);
+            transition: all 0.2s ease-in;
+            background: #28553F;
+            border: toRem(1) solid #28553F;
+
+        }
+    }
+}

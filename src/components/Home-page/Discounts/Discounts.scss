@@ -1,0 +1,289 @@
+@use "sass:math";
+@import "../../../styles/base/mixins";
+@import "../../../styles/style";
+
+
+.discounts {
+    @include adaptiveValue("padding-top", 60, 40, 320, 1440, 1);
+    @include adaptiveValue("padding-bottom", 60, 40, 320, 1440, 1);
+
+    background: url('../../../images/discounts/discounts-bg.jpg') 100% / cover no-repeat;
+    // .discounts__container
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        column-gap: toRem(20);
+
+        @media (max-width: $tablet) {
+            flex-direction: column;
+        }
+    }
+
+    // .discounts__left
+
+    &__left {
+        flex: 0 1 47%;
+        display: flex;
+        align-items: center;
+
+        @media (max-width: 1250px) {
+            @include adaptiveValue("flex-basis", 600, 600);
+        }
+
+        @media (max-width: $tablet) {
+            flex-basis: 0;
+            margin-bottom: toRem(20);
+        }
+    }
+
+    // .discounts__info
+
+    &__info {
+        padding: toRem(55) toRem(17) toRem(47) toRem(100);
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.87) 62.37%, rgba(0, 0, 0, 0.24) 100%);
+        margin-left: toRem(-100);
+        margin-top: auto;
+        margin-bottom: auto;
+
+
+        @media (max-width: $tablet) {
+            padding: toRem(55) toRem(25) toRem(47) toRem(120);
+
+        }
+
+        @media (max-width: 500px) {
+            padding: toRem(55) toRem(17) toRem(47) toRem(100);
+
+
+        }
+    }
+
+    // .discounts__title
+
+    &__title {
+        color: #FFF;
+        @include adaptiveValue("font-size", 46, 36);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        position: relative;
+        margin-bottom: toRem(34);
+
+        strong {
+            color: #28553F;
+            font-weight: 400;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            background: #FFF;
+            width: toRem(120);
+            height: 1px;
+            top: toRem(-9);
+            left: 0%;
+        }
+
+        @media (max-width: $tablet) {
+            max-width: toRem(450);
+        }
+    }
+
+    // .discounts__text
+
+    &__text {
+        color: #FFF;
+        font-size: toRem(22);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: toRem(41);
+
+    }
+
+    // .discounts__cover
+
+    &__cover {
+        display: flex;
+
+    }
+
+    // .discounts__button
+
+    &__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: toRem(25) toRem(40);
+        background-color: #28553F;
+        color: #FFF;
+        font-size: toRem(16);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        transition: all 0.3s ease-in-out;
+
+        @media (max-width: 600px) {
+            padding: toRem(20) toRem(30);
+        }
+
+        @media (max-width: 400px) {
+            padding: toRem(15) toRem(20);
+        }
+    }
+
+    // .discounts__right
+
+    &__right {}
+}
+
+.right-discounts {
+    flex: 0 1 47%;
+
+    @media (max-width: 1250px) {
+        flex-grow: 1;
+        @include adaptiveValue("flex-basis", 600, 1500);
+    }
+
+    // .right-discounts__watch-all
+
+    &__watch-all {
+        display: flex;
+        align-items: center;
+        color: #FFF;
+        justify-content: flex-end;
+        margin-bottom: toRem(20);
+
+        svg {
+            width: toRem(50);
+        }
+
+        a {
+            font-size: toRem(21);
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+    }
+
+
+}
+
+.right-discounts {
+
+    // .right-discounts__cover
+
+    &__cover {
+        display: flex;
+        flex-wrap: wrap;
+        gap: toRem(30);
+
+        @media (max-width: 886.8px) {
+            justify-content: center;
+        }
+    }
+
+    // .right-discounts__card
+
+    &__card {}
+}
+
+.card-discounts {
+    padding: toRem(15) toRem(18);
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.96);
+
+    @media (max-width: 886.8px) {
+       width: toRem(320);
+    }
+    // .card-discounts__image
+
+    &__image {
+        margin-bottom: toRem(26);
+        position: relative;
+        padding: 0px 0px 89% 0px;
+        width: 100%;
+
+        img {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    // .card-discounts__label
+
+    &__label {
+        color: #28553F;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-size: toRem(14);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 157.143%;
+        margin-bottom: toRem(4);
+    }
+
+    // .card-discounts__title
+
+    &__title {
+        color: #000;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-size: toRem(16);
+        font-style: normal;
+        font-weight: 500;
+        line-height: 137.5%;
+        margin-bottom: toRem(16);
+        max-width: toRem(200);
+    }
+
+    &__cover {
+        padding: 0 toRem(14);
+        margin-bottom: toRem(20);
+    }
+
+    // .card-discounts__price
+
+    &__price {
+        color: #28553F;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-family: Raleway;
+        font-size: toRem(20);
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span {
+            color: #949981;
+            font-size: toRem(14);
+            font-weight: 400;
+            text-decoration: line-through;
+        }
+    }
+
+    // .card-discounts__button
+
+    &__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #28553F;
+
+        a {
+            color: #FFF;
+            font-size: toRem(17);
+            padding: toRem(10) 0;
+        }
+    }
+}

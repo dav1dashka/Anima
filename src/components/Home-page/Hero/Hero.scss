@@ -1,0 +1,178 @@
+@use "sass:math";
+@import "../../../styles/base/mixins";
+@import "../../../styles/style";
+
+.hero {
+    background-image: url('../../../images/hero/hero-bg.jpg');
+}
+
+.hero {
+    position: relative;
+    overflow: hidden;
+
+    &.hero-open {
+        height: 100vh;
+
+    }
+}
+
+
+
+.hero {
+
+    &__cover {
+        padding: toRem(30) 0;
+    }
+
+    // .hero__info
+
+    &__info {}
+}
+
+.info-hero {
+    position: absolute;
+    top: 260px;
+    @include adaptiveValue("left", 530, -740, 1440, 2560, 1);
+
+    @media (max-width: 1440px) {
+        @include adaptiveValue("left", -20, -10, 992, 1440, 1);
+
+    }
+
+    @media (max-width: $tablet) {
+        top: toRem(320);
+    }
+
+    @media (max-width: $mobile) {
+        top: toRem(380);
+        left: 0;
+    }
+
+
+
+
+
+    z-index: 1;
+    background-color: #000;
+    // .info-hero__cover
+
+    &__cover {
+        padding: toRem(67) toRem(63) toRem(58) toRem(100);
+
+        @media (max-width: 1440px) {
+            @include adaptiveValue("padding-top", 67, 0, 992, 1440, 1);
+            @include adaptiveValue("padding-bottom", 58, 0, 992, 1440, 1);
+            @include adaptiveValue("padding-left", 100, 0, 992, 1440, 1);
+            @include adaptiveValue("padding-right", 63, 0, 992, 1440, 1);
+
+
+        }
+
+        @media (max-width: $tablet) {
+            padding: toRem(30) toRem(40) toRem(30) toRem(40);
+
+        }
+
+        @media (max-width: 530px) {
+            padding: toRem(20) toRem(20) toRem(20) toRem(20);
+
+        }
+    }
+
+    // .info-hero__label
+
+    &__label {
+        color: #9C9C9C;
+        font-size: toRem(14);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        position: relative;
+        margin-bottom: toRem(9);
+
+        &::after {
+            content: '';
+            background: #9C9C9C;
+            width: toRem(82);
+            height: 1px;
+            position: absolute;
+            top: 50%;
+            left: 110%;
+        }
+    }
+
+    // .info-hero__title
+
+    &__title {
+        color: #FFF;
+        font-size: toRem(50);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: toRem(25);
+
+        strong {
+            font-weight: 400;
+            color: #28553F;
+        }
+
+        @media (max-width: 1440px) {
+            @include adaptiveValue("font-size", 50, 40, 992, 1440, 1);
+        }
+
+        @media (max-width: 530px) {
+            font-size: toRem(32);
+
+
+        }
+    }
+
+    // .info-hero__buttons
+
+    &__buttons {
+        display: flex;
+        column-gap: toRem(23);
+
+        @media (max-width: 400px) {
+            column-gap: toRem(10);
+
+        }
+    }
+
+    // .info-hero__button
+
+    &__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: toRem(25) toRem(40);
+        background-color: #28553F;
+        color: #FFF;
+        font-size: toRem(16);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        transition: all 0.3s ease-in-out;
+
+        @media (max-width: 600px) {
+            padding: toRem(20) toRem(30);
+        }
+
+        @media (max-width: 400px) {
+            padding: toRem(15) toRem(20);
+        }
+
+        &:last-child {
+            background: #141414;
+
+            &:hover {
+                background: #28553F;
+            }
+        }
+
+    }
+}

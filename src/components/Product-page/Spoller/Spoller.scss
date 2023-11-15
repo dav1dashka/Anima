@@ -1,0 +1,79 @@
+@use "sass:math";
+@import "../../../styles/base/mixins";
+@import "../../../styles/style";
+
+
+.product__info {
+
+    button {
+        color: #282A30;
+        font-size: toRem(17);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        margin-bottom: toRem(15);
+    }
+
+    .product__arrow {
+        transition: transform 0.3s ease-out;
+        transform: rotate(180deg);
+    }
+
+    &.open {
+
+        .product__arrow {
+            transform: rotate(90deg);
+        }
+    }
+}
+
+.characteristics-product {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, margin-bottom 0.25s ease-out;
+    margin-bottom: 0;
+
+    .product__info.open & {
+        transition: max-height 0.5s ease-out, margin-bottom 0.2s ease-out;
+        max-height: toRem(210);
+        margin-bottom: 1.48rem;
+    }
+
+
+    // .characteristics-product__item
+
+    &__item {
+        padding: toRem(18) toRem(12);
+        display: flex;
+        align-items: flex-end;
+
+        span {
+            color: #282A30;
+            font-variant-numeric: lining-nums proportional-nums;
+            font-size: toRem(16);
+
+            &:last-of-type {
+                font-size: toRem(14);
+                color: #28553F;
+            }
+
+            &:first-of-type {
+                flex: 0 1 30%;
+
+                @media (max-width: 600px) {
+                    flex: 0 1 40%;
+
+                }
+
+                @media (max-width: 400px) {
+                    flex: 0 1 60%;
+
+                }
+            }
+        }
+
+        &:nth-child(odd) {
+            background: #F9F9F9;
+        }
+    }
+}

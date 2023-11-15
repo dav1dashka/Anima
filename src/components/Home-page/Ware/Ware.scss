@@ -1,0 +1,283 @@
+@use "sass:math";
+@import "../../../styles/base/mixins";
+@import "../../../styles/style";
+
+
+.ware {
+    @include adaptiveValue("padding-top", 60, 40, 320, 1440, 1);
+    @include adaptiveValue("padding-bottom", 100, 80, 320, 1440, 1);
+    // .ware__container
+
+    &__container {}
+
+    // .ware__title
+
+    &__title {
+        color: #282A30;
+        @include adaptiveValue("font-size", 40, 36);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        position: relative;
+        @include adaptiveValue("margin-bottom", 40, 30, 320, 1400, 1);
+
+        strong {
+            color: #28553F;
+            font-weight: 400;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            background: #28553F;
+            width: toRem(120);
+            height: 1px;
+            top: toRem(-9);
+            left: 0%;
+        }
+    }
+
+    // .ware__watch-all
+
+    &__watch-all {
+        display: flex;
+        align-items: center;
+        color: #282A30;
+        justify-content: flex-end;
+        @include adaptiveValue("margin-bottom", 40, 20);
+
+        svg {
+            width: toRem(50);
+        }
+
+        a {
+            font-size: toRem(21);
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+    }
+
+    // .ware__cover
+
+    &__cover {
+        display: flex;
+        flex-direction: column;
+        gap: toRem(10);
+
+        @media (max-width: $tablet) {
+            flex-direction: column;
+
+        }
+    }
+}
+
+.top-ware {
+    display: flex;
+    gap: toRem(10);
+
+    @media (max-width: $tablet) {
+        flex-direction: column;
+
+    }
+
+    // .top-ware__left
+
+    &__left {
+        flex: 1 1 38.43%;
+        position: relative;
+        padding: 0 0 26.5% 0;
+
+        @media (max-width: $tablet) {
+            padding: 0 0 50% 0;
+
+        }
+
+        @media (max-width: 500px) {
+            padding: 0 0 100% 0;
+        }
+
+        img {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+            object-position: center;
+        }
+
+    }
+
+    // .top-ware__right
+
+    &__right {
+        flex: 1 1 57.97%;
+        position: relative;
+        padding: 0 0 26.5% 0;
+
+        @media (max-width: $tablet) {
+            padding: 0 0 50% 0;
+
+        }
+
+        @media (max-width: 500px) {
+            padding: 0 0 100% 0;
+        }
+
+        img {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+            object-position: center;
+        }
+
+    }
+}
+
+.bottom-ware {
+    display: flex;
+    gap: toRem(10);
+
+    @media (max-width: $tablet) {
+        flex-direction: column;
+    }
+
+    // .bottom-ware__left
+
+    &__left {
+        flex: 1 1 57.97%;
+        position: relative;
+        padding: 0 0 26.5% 0;
+
+        @media (max-width: $tablet) {
+            padding: 0 0 50% 0;
+
+        }
+
+        @media (max-width: 500px) {
+            padding: 0 0 100% 0;
+        }
+
+        img {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+            object-position: center;
+        }
+
+    }
+
+    // .bottom-ware__right
+
+    &__right {
+        flex: 1 1 38.43%;
+        position: relative;
+        padding: 0 0 26.5% 0;
+
+        @media (max-width: $tablet) {
+            padding: 0 0 50% 0;
+
+        }
+
+        @media (max-width: 500px) {
+            padding: 0 0 100% 0;
+        }
+
+        img {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+            object-position: center;
+        }
+
+
+    }
+}
+
+.top-ware__right::after,
+.top-ware__left::after,
+.bottom-ware__right::after,
+.bottom-ware__left::after {
+    width: toRem(360);
+    height: toRem(50);
+    position: absolute;
+    bottom: toRem(19);
+    background: var(--3, linear-gradient(177deg, rgba(0, 0, 0, 0.87) 2.22%, rgba(0, 0, 0, 0.55) 97.78%));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFF;
+    font-size: toRem(24);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+.top-ware__left::after {
+    content: 'стільниці';
+    left: 0;
+
+    @media (max-width: $tablet) {
+        @include adaptiveValue("font-size", 50, 22);
+        font-weight: 400;
+        @include adaptiveValue("height", 100, 60);
+        @include adaptiveValue("width", 400, 180);
+
+    }
+}
+
+.top-ware__right::after {
+    content: 'підвіконники';
+    right: 0;
+
+    @media (max-width: $tablet) {
+        @include adaptiveValue("font-size", 50, 22);
+        font-weight: 400;
+        @include adaptiveValue("height", 100, 60);
+        @include adaptiveValue("width", 500, 250);
+
+    }
+}
+
+
+.bottom-ware__left::after {
+    content: 'раковини';
+    left: 0;
+
+    @media (max-width: $tablet) {
+        @include adaptiveValue("font-size", 50, 22);
+        font-weight: 400;
+        @include adaptiveValue("height", 100, 60);
+        @include adaptiveValue("width", 400, 180);
+
+    }
+}
+
+.bottom-ware__right::after {
+    content: 'панно';
+    right: 0;
+
+    @media (max-width: $tablet) {
+        @include adaptiveValue("font-size", 50, 22);
+        font-weight: 400;
+        @include adaptiveValue("height", 100, 60);
+        @include adaptiveValue("width", 500, 250);
+
+    }
+}

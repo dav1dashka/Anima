@@ -1,0 +1,20 @@
+@use "sass:math";
+@import "../../../styles/base/mixins";
+@import "../../../styles/style";
+
+.product__cards {
+    display: flex;
+    margin-bottom: toRem(100);
+    margin-left: toRem(-15);
+    margin-right: toRem(-15);
+    row-gap: toRem(20);
+
+    @media (max-width: $tablet) {
+        flex-wrap: wrap;
+
+    }
+
+    @media (max-width: $mobile) {
+        margin-bottom: toRem(60);
+    }
+}

@@ -11,15 +11,15 @@ import './App.scss';
 
 const router = createBrowserRouter([
   {
-    path: "/Anima",
+    path: "/",
     element: <HomePage />,
   },
   {
-    path: "/Anima/catalog",
+    path: "/catalog",
     element: <Catalog />,
   },
   {
-    path: "/Anima/product/:itemId",
+    path: "/product/:itemId",
     element: <ProductPage />,
   },
   {

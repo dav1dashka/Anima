@@ -1,6 +1,6 @@
 [
     {
-     "id": 1,
+     "id": "1",
      "title": "Кам'яні сходи 'Драконів Гребінець'",
      "label": "Granule",
      "curPrice": "15000",
@@ -9,15 +9,15 @@
      "model": "183260098",
      "article": "183260098",
      "images": [
-      "/src/images/product/01.jpg",
-      "/src/images/product/02.jpg",
-      "/src/images/product/03.jpg",
-      "/src/images/product/04.jpg",
-      "/src/images/product/05.jpg",
-      "/src/images/product/06.jpg",
-      "/src/images/product/07.jpg",
-      "/src/images/product/08.jpg",
-      "/src/images/product/09.jpg"
+        "01.jpg",
+        "02.jpg",
+        "03.jpg",
+        "04.jpg",
+        "05.jpg",
+        "06.jpg",
+        "07.jpg",
+        "08.jpg",
+        "09.jpg"
      ],
      "amount": "7",
      "characteristics": {
@@ -26,6 +26,7 @@
       "location": "Покостівсье",
       "color": "Чорний"
      },
+     "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, corrupti? Commodi nesciunt molestiae ipsum culpa mollitia sunt harum! Quibusdam, recusandae modi exercitationem adipisci culpa vero quis consequatur veritatis repellat laborum iste asperiores animi eum minima laudantium consequuntur dolore nobis fugit quisquam repudiandae quaerat cumque maiores explicabo. Id dignissimos ducimus delectus ullam mollitia est illum voluptates libero esse corrupti corporis, laudantium odit, laborum maiores illo dolore alias ipsa quas, fuga provident. Nesciunt sequi dignissimos nam odit aperiam expedita soluta impedit, odio eligendi. At, quis eligendi quisquam ea aspernatur non sed neque dolore id culpa ipsam. Recusandae dignissimos illo quis. Eum, neque?",
      "sort": [
       "available",
       "discount",
@@ -39,22 +40,22 @@
      ]
     },
     {
-     "id": 2,
+     "id": "2",
      "title": "Аквамаринові сходи 'Підводний Лабіринт'",
      "label": "Grapple",
      "curPrice": "10000",
      "model": "18323498",
      "article": "18323498",
      "images": [
-      "/src/images/product/01.jpg",
-      "/src/images/product/02.jpg",
-      "/src/images/product/03.jpg",
-      "/src/images/product/04.jpg",
-      "/src/images/product/05.jpg",
-      "/src/images/product/06.jpg",
-      "/src/images/product/07.jpg",
-      "/src/images/product/08.jpg",
-      "/src/images/product/09.jpg"
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg",
+      "09.jpg"
      ],
      "amount": "10",
      "characteristics": {
@@ -63,6 +64,7 @@
       "location": "Великокам’янецьке",
       "color": "Аквамариновий"
      },
+     "descr": "Lorem ipsum dolor sit, amet aperiam quisquam deleniti nostrum, cumque accusantium illo distinctio iure. Animi suscipit consectetur adipisicing elit. Beatae aperiam quisquam deleniti nostrum, cumque accusantium illo distinctio iure. Animi suscipit, ratione alias porro nemo optio reiciendis quas dolore unde eum? Lorem ipsum dolor sit, amet aperiam quisquam deleniti nostrum, cumque accusantium illo distinctio iure. Animi suscipit consectetur adipisicing elit. Beatae aperiam quisquam deleniti nostrum rro nemo optio reiciendis quas dolore unde",
      "sort": [
       "discount",
       "all"
@@ -75,22 +77,22 @@
      ]
     },
     {
-     "id": 3,
+     "id": "3",
      "title": "Золотовугільні сходи 'Блакитна Діва'",
      "label": "Kernel",
      "curPrice": "100000",
      "model": "23323498",
      "article": "23323498",
      "images": [
-      "/src/images/product/01.jpg",
-      "/src/images/product/02.jpg",
-      "/src/images/product/03.jpg",
-      "/src/images/product/04.jpg",
-      "/src/images/product/05.jpg",
-      "/src/images/product/06.jpg",
-      "/src/images/product/07.jpg",
-      "/src/images/product/08.jpg",
-      "/src/images/product/09.jpg"
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg",
+      "09.jpg"
      ],
      "amount": "1",
      "characteristics": {
@@ -99,6 +101,7 @@
       "location": "Великокам’янецьке",
       "color": "Бежевий"
      },
+     "descr": "Lorem ipsum dolelit. Beatae aperiam quisquam deleniti nostrum, cumque accusantium illo distinctio iure. Animi suscipit, ratione alias porro nemo optio reiciendis quas dolore unde eum? Lorem ipsum dolor sit, amet aperiam quisquam deleniti nostrum, cumque accusantium illo distinctio iure. Animi suscipit consectetur adipisicing elit. Beatae aperiam quisquam deleniti nostrum, cumque accusantium illo distinctio iure. Animi suscipit, ratione alias porro nemo optio reiciendis quas dolore unde  Lorem ipsum dolor sit, amet aperiam quisquam deleniti nostrum, cumque accusantium illo distinctio iure. Animi suscipit consectetur adipisicing elit. Beatae aperiam quisquam deleniti nostrum, cumque accusantium illo distinctio iure. Animi suscipit, ratione alias porro nemo optio reiciendis quas dolore unde",
      "sort": [
       "available",
       "all"
@@ -111,7 +114,7 @@
      ]
     },
     {
-     "id": 4,
+     "id": "4",
      "title": "Смарагдова стільниця 'Зеленій Спокій'",
      "label": "Halt",
      "curPrice": "65000",
@@ -120,15 +123,15 @@
      "model": "123432",
      "article": "123432",
      "images": [
-      "/src/images/product/01.jpg",
-      "/src/images/product/02.jpg",
-      "/src/images/product/03.jpg",
-      "/src/images/product/04.jpg",
-      "/src/images/product/05.jpg",
-      "/src/images/product/06.jpg",
-      "/src/images/product/07.jpg",
-      "/src/images/product/08.jpg",
-      "/src/images/product/09.jpg"
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg",
+      "09.jpg"
      ],
      "amount": "15",
      "characteristics": {
@@ -137,6 +140,7 @@
       "location": "Великокам’янецьке",
       "color": "Бежевий"
      },
+     "descr": "Lorem ipsum dolelit. Beatae aperiam quisquam deleniti nostrum, lit. Beatae aperiam quisquam deleniti nostrum, cumque accusantium illo distinctio iure. Animi suscipit, ratione alias porro nemo optio reiciendis quas dolorecumque accusantium illo distinctio iure. Animi suscipit, ratione alias porro nemo optio reiciendis quas dolore unde eum?",
      "sort": [
       "available",
       "discount",
@@ -150,22 +154,22 @@
      ]
     },
     {
-     "id": 5,
+     "id": "5",
      "title": "Вітрова стільниця 'Пульс Небес'",
      "label": "Cattle",
      "curPrice": "12000",
      "model": "185433",
      "article": "185433",
      "images": [
-      "/src/images/product/01.jpg",
-      "/src/images/product/02.jpg",
-      "/src/images/product/03.jpg",
-      "/src/images/product/04.jpg",
-      "/src/images/product/05.jpg",
-      "/src/images/product/06.jpg",
-      "/src/images/product/07.jpg",
-      "/src/images/product/08.jpg",
-      "/src/images/product/09.jpg"
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg",
+      "09.jpg"
      ],
      "amount": "0",
      "characteristics": {
@@ -174,6 +178,7 @@
       "location": "Покостівсье",
       "color": "Рожевий"
      },
+     "descr": "Lorem ipsum dolelit. Beatae aperiam quisquam deleniti nostrum, lit. Beatae aperiam quisquam deleniti nostrum, cumque accusantium illo disum?",
      "sort": [
       "notaccessible",
       "all"
@@ -186,7 +191,7 @@
      ]
     },
     {
-     "id": 6,
+     "id": "6",
      "title": "Вугільна стільниця 'Люкс Повсякденності'",
      "label": "Groove",
      "curPrice": "500000",
@@ -195,15 +200,15 @@
      "model": "183456",
      "article": "183456",
      "images": [
-      "/src/images/product/01.jpg",
-      "/src/images/product/02.jpg",
-      "/src/images/product/03.jpg",
-      "/src/images/product/04.jpg",
-      "/src/images/product/05.jpg",
-      "/src/images/product/06.jpg",
-      "/src/images/product/07.jpg",
-      "/src/images/product/08.jpg",
-      "/src/images/product/09.jpg"
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg",
+      "09.jpg"
      ],
      "amount": "0",
      "characteristics": {
@@ -212,6 +217,7 @@
       "location": "Покостівсье",
       "color": "Чорний"
      },
+     "descr": "Lorem ipsum dolelit. Beatae Lorem ipsum dolelit. Beatae aperiam quisquam deleniti nostrum, lit. Beatae apeLorem ipsum dolelit. Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum aperiam quisquam deleniti nostrum, lit. Beatae apLorem ipsum dolelit. Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum?",
      "sort": [
       "notaccessible",
       "all"
@@ -224,7 +230,7 @@
      ]
     },
     {
-     "id": 7,
+     "id": "7",
      "title": "Діамантовий камін 'Скеля Чистоти'",
      "label": "Grant",
      "curPrice": "350000",
@@ -233,15 +239,15 @@
      "model": "189456",
      "article": "189456",
      "images": [
-      "/src/images/product/01.jpg",
-      "/src/images/product/02.jpg",
-      "/src/images/product/03.jpg",
-      "/src/images/product/04.jpg",
-      "/src/images/product/05.jpg",
-      "/src/images/product/06.jpg",
-      "/src/images/product/07.jpg",
-      "/src/images/product/08.jpg",
-      "/src/images/product/09.jpg"
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg",
+      "09.jpg"
      ],
      "amount": "5",
      "characteristics": {
@@ -250,6 +256,7 @@
       "location": "Великокам’янецьке",
       "color": "Зелений"
      },
+     "descr": "Lorem ipsum dolelit. Beatae Lorem ipsum dolelit. Beatae aperiam quisquam deleniti nostrum, lit. Beatae apeLorem ipsum dolelit. Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum aperiam quisquam deleniti nostrum, lit. Beatae apeLorem ipsum dolelit. Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum?",
      "sort": [
       "available",
       "discount",
@@ -263,22 +270,22 @@
      ]
     },
     {
-     "id": 8,
+     "id": "8",
      "title": "Рубіновий камін 'Кохання в Серці'",
      "label": "Holster",
      "curPrice": "70000",
      "model": "182394",
      "article": "182394",
      "images": [
-      "/src/images/product/01.jpg",
-      "/src/images/product/02.jpg",
-      "/src/images/product/03.jpg",
-      "/src/images/product/04.jpg",
-      "/src/images/product/05.jpg",
-      "/src/images/product/06.jpg",
-      "/src/images/product/07.jpg",
-      "/src/images/product/08.jpg",
-      "/src/images/product/09.jpg"
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg",
+      "09.jpg"
      ],
      "amount": "23",
      "characteristics": {
@@ -287,6 +294,7 @@
       "location": "Осоковка",
       "color": "Рожевий"
      },
+     "descr": "Lorem ipsum dolelit. Beatae aperiam quisquam deleniti nostrum, lit. Beatae apeLorem ipsum dolelit. Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum?",
      "sort": [
       "available",
       "all"
@@ -299,22 +307,22 @@
      ]
     },
     {
-     "id": 9,
+     "id": "9",
      "title": "Зоряний камін 'Шляхи в Галактиці'",
      "label": "Karate",
      "curPrice": "28000",
      "model": "181944",
      "article": "181944",
      "images": [
-      "/src/images/product/01.jpg",
-      "/src/images/product/02.jpg",
-      "/src/images/product/03.jpg",
-      "/src/images/product/04.jpg",
-      "/src/images/product/05.jpg",
-      "/src/images/product/06.jpg",
-      "/src/images/product/07.jpg",
-      "/src/images/product/08.jpg",
-      "/src/images/product/09.jpg"
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg",
+      "09.jpg"
      ],
      "amount": "0",
      "characteristics": {
@@ -323,6 +331,7 @@
       "location": "Осоковка",
       "color": "Синій"
      },
+     "descr": "Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum? Lorem ipsum dolelit. Beatae aperiam quisquam deleniti nostrum, lit. Beatae apeLorem ipsum dolelit. Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum v Lorem ipsum dolelit. Beatae aperiam quisquam deleniti nostrum, lit. Beatae apeLorem ipsum dolelit. Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum",
      "sort": [
       "notaccessible",
       "all"
@@ -335,7 +344,7 @@
      ]
     },
     {
-     "id": 10,
+     "id": "10",
      "title": "Кам'яні сходи 'Драконів Гребінець'",
      "label": "Granule",
      "curPrice": "15000",
@@ -344,15 +353,15 @@
      "model": "183260098",
      "article": "183260098",
      "images": [
-      "/src/images/product/01.jpg",
-      "/src/images/product/02.jpg",
-      "/src/images/product/03.jpg",
-      "/src/images/product/04.jpg",
-      "/src/images/product/05.jpg",
-      "/src/images/product/06.jpg",
-      "/src/images/product/07.jpg",
-      "/src/images/product/08.jpg",
-      "/src/images/product/09.jpg"
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg",
+      "09.jpg"
      ],
      "amount": "7",
      "characteristics": {
@@ -361,6 +370,7 @@
       "location": "Покостівсье",
       "color": "Чорний"
      },
+     "descr": "Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum? Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum? Beatae aperiam quisquam delenitiriam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium iam deleniti nostrum, cumque accusantium illo disum? Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum? Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum?",
      "sort": [
       "available",
       "discount",
@@ -374,22 +384,22 @@
      ]
     },
     {
-     "id": 11,
+     "id": "11",
      "title": "Аквамаринові сходи 'Підводний Лабіринт'",
      "label": "Grapple",
      "curPrice": "10000",
      "model": "18323498",
      "article": "18323498",
      "images": [
-      "/src/images/product/01.jpg",
-      "/src/images/product/02.jpg",
-      "/src/images/product/03.jpg",
-      "/src/images/product/04.jpg",
-      "/src/images/product/05.jpg",
-      "/src/images/product/06.jpg",
-      "/src/images/product/07.jpg",
-      "/src/images/product/08.jpg",
-      "/src/images/product/09.jpg"
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg",
+      "09.jpg"
      ],
      "amount": "10",
      "characteristics": {
@@ -398,6 +408,7 @@
       "location": "Великокам’янецьке",
       "color": "Аквамариновий"
      },
+     "descr": "Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum? Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum? Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum? Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum?Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illcusantium illo disum? Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum? Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum? Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum?",
      "sort": [
       "available",
       "all"
@@ -410,22 +421,22 @@
      ]
     },
     {
-     "id": 12,
+     "id": "12",
      "title": "Золотовугільні сходи 'Блакитна Діва'",
      "label": "Kernel",
      "curPrice": "100000",
      "model": "23323498",
      "article": "23323498",
      "images": [
-      "/src/images/product/01.jpg",
-      "/src/images/product/02.jpg",
-      "/src/images/product/03.jpg",
-      "/src/images/product/04.jpg",
-      "/src/images/product/05.jpg",
-      "/src/images/product/06.jpg",
-      "/src/images/product/07.jpg",
-      "/src/images/product/08.jpg",
-      "/src/images/product/09.jpg"
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg",
+      "09.jpg"
      ],
      "amount": "1",
      "characteristics": {
@@ -434,6 +445,7 @@
       "location": "Великокам’янецьке",
       "color": "Бежевий"
      },
+     "descr": "Bm quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum? Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum? Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum?",
      "sort": [
       "available",
       "all"
@@ -446,7 +458,7 @@
      ]
     },
     {
-     "id": 13,
+     "id": "13",
      "title": "Смарагдова стільниця 'Зеленій Спокій'",
      "label": "Halt",
      "curPrice": "65000",
@@ -455,15 +467,15 @@
      "model": "123432",
      "article": "123432",
      "images": [
-      "/src/images/product/01.jpg",
-      "/src/images/product/02.jpg",
-      "/src/images/product/03.jpg",
-      "/src/images/product/04.jpg",
-      "/src/images/product/05.jpg",
-      "/src/images/product/06.jpg",
-      "/src/images/product/07.jpg",
-      "/src/images/product/08.jpg",
-      "/src/images/product/09.jpg"
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg",
+      "09.jpg"
      ],
      "amount": "15",
      "characteristics": {
@@ -472,6 +484,7 @@
       "location": "Великокам’янецьке",
       "color": "Бежевий"
      },
+     "descr": "Bm quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum? Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum? Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum? Lorem ipsum dolelit. Beatae aperiam quisquam deleniti nostrum, lit. Beatae apeLorem ipsum dolelit. Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum",
      "sort": [
       "available",
       "discount",
@@ -485,22 +498,22 @@
      ]
     },
     {
-     "id": 14,
+     "id": "14",
      "title": "Вітрова стільниця 'Пульс Небес'",
      "label": "Cattle",
      "curPrice": "12000",
      "model": "185433",
      "article": "185433",
      "images": [
-      "/src/images/product/01.jpg",
-      "/src/images/product/02.jpg",
-      "/src/images/product/03.jpg",
-      "/src/images/product/04.jpg",
-      "/src/images/product/05.jpg",
-      "/src/images/product/06.jpg",
-      "/src/images/product/07.jpg",
-      "/src/images/product/08.jpg",
-      "/src/images/product/09.jpg"
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg",
+      "09.jpg"
      ],
      "amount": "0",
      "characteristics": {
@@ -509,6 +522,7 @@
       "location": "Покостівсье",
       "color": "Рожевий"
      },
+     "descr": "Bm quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum? Beatae ap quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum? Beatae aperiam quisquam deleriam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum? Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum?",
      "sort": [
       "notaccessible",
       "all"
@@ -521,7 +535,7 @@
      ]
     },
     {
-     "id": 15,
+     "id": "15",
      "title": "Вугільна стільниця 'Люкс Повсякденності'",
      "label": "Groove",
      "curPrice": "500000",
@@ -530,15 +544,15 @@
      "model": "183456",
      "article": "183456",
      "images": [
-      "/src/images/product/01.jpg",
-      "/src/images/product/02.jpg",
-      "/src/images/product/03.jpg",
-      "/src/images/product/04.jpg",
-      "/src/images/product/05.jpg",
-      "/src/images/product/06.jpg",
-      "/src/images/product/07.jpg",
-      "/src/images/product/08.jpg",
-      "/src/images/product/09.jpg"
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg",
+      "09.jpg"
      ],
      "amount": "0",
      "characteristics": {
@@ -547,6 +561,7 @@
       "location": "Покостівсье",
       "color": "Чорний"
      },
+     "descr": "Bm quisquam delenitiriam quisquam deleniusantium illo disum? Beatae aperiam quisquam deleriam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum? Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum? Lorem ipsum dolelit. Beatae aperiam quisquam deleniti nostrum, lit. Beatae apeLorem ipsum dolelit. Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum",
      "sort": [
       "notaccessible",
       "all"
@@ -559,7 +574,7 @@
      ]
     },
     {
-     "id": 16,
+     "id": "16",
      "title": "Діамантовий камін 'Скеля Чистоти'",
      "label": "Grant",
      "curPrice": "350000",
@@ -568,15 +583,15 @@
      "model": "189456",
      "article": "189456",
      "images": [
-      "/src/images/product/01.jpg",
-      "/src/images/product/02.jpg",
-      "/src/images/product/03.jpg",
-      "/src/images/product/04.jpg",
-      "/src/images/product/05.jpg",
-      "/src/images/product/06.jpg",
-      "/src/images/product/07.jpg",
-      "/src/images/product/08.jpg",
-      "/src/images/product/09.jpg"
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg",
+      "09.jpg"
      ],
      "amount": "5",
      "characteristics": {
@@ -585,6 +600,7 @@
       "location": "Великокам’янецьке",
       "color": "Зелений"
      },
+     "descr": "Beatae aperiam quisquam deleriam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum? Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum? Lorem ipsum dolelit. Beatae aperiam quisquam deleniti nostrum, lit. Beatae apeLorem ipsum dolelit. Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum Lorem ipsum dolelit. Beatae aperiam quisquam deleniti nostrum, lit. Beatae apeLorem ipsum dolelit. Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum",
      "sort": [
       "available",
       "discount",
@@ -598,22 +614,22 @@
      ]
     },
     {
-     "id": 17,
+     "id": "17",
      "title": "Рубіновий камін 'Кохання в Серці'",
      "label": "Holster",
      "curPrice": "70000",
      "model": "182394",
      "article": "182394",
      "images": [
-      "/src/images/product/01.jpg",
-      "/src/images/product/02.jpg",
-      "/src/images/product/03.jpg",
-      "/src/images/product/04.jpg",
-      "/src/images/product/05.jpg",
-      "/src/images/product/06.jpg",
-      "/src/images/product/07.jpg",
-      "/src/images/product/08.jpg",
-      "/src/images/product/09.jpg"
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg",
+      "09.jpg"
      ],
      "amount": "23",
      "characteristics": {
@@ -622,6 +638,7 @@
       "location": "Осоковка",
       "color": "Рожевий"
      },
+     "descr": "Beatae aperiam quisquam deleriam quisquam delenitiriam quisquam Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum?",
      "sort": [
       "available",
       "all"
@@ -634,22 +651,22 @@
      ]
     },
     {
-     "id": 18,
+     "id": "18",
      "title": "Зоряний камін 'Шляхи в Галактиці'",
      "label": "Karate",
      "curPrice": "28000",
      "model": "181944",
      "article": "181944",
      "images": [
-      "/src/images/product/01.jpg",
-      "/src/images/product/02.jpg",
-      "/src/images/product/03.jpg",
-      "/src/images/product/04.jpg",
-      "/src/images/product/05.jpg",
-      "/src/images/product/06.jpg",
-      "/src/images/product/07.jpg",
-      "/src/images/product/08.jpg",
-      "/src/images/product/09.jpg"
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg",
+      "09.jpg"
      ],
      "amount": "0",
      "characteristics": {
@@ -658,6 +675,7 @@
       "location": "Осоковка",
       "color": "Синій"
      },
+     "descr": "Beatae aperiam quisquam deleriam quisquam delenitiriam quisquam Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum? Beatae aperiam quisquam deleriam quisquam delenitiriam quisquam Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum? Beatae aperiam quisquam deleriam quisquam delenitiriam quisquam Beatae aperiam quisquam delenitiriam quisquam deleniti nostrum, cumque accusantium illo disum?",
      "sort": [
       "notaccessible",
       "all"

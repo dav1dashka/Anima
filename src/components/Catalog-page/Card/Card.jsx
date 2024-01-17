@@ -6,7 +6,7 @@ const Card = (props) => {
     let { id, title, label, curPrice, prevPrice = null, discount = null, images } = props.info
 
     let cardClassName = props.clas ? props.clas : 'card'
-
+    
     return (
         <>
             <div className={cardClassName}>

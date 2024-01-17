@@ -7,7 +7,7 @@ export const fetchCard = createAsyncThunk(
     'card/fetchCardStatus',
     async (cardId) => {
         const { data } = await axios.get(
-            'https://6536971dbb226bb85dd2632d.mockapi.io/stones/' + cardId)
+            'https://65a799bc94c2c5762da71017.mockapi.io/stones/' + cardId)
         return data
     }
 )

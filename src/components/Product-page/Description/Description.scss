@@ -2,15 +2,12 @@
 @import "../../../styles/base/mixins";
 @import "../../../styles/style";
 
-
 .description__info {
     position: relative;
     margin-bottom: toRem(60);
 
     @media (max-width: $mobile) {
         margin-bottom: toRem(40);
-
-
     }
 
     &::after {
@@ -45,8 +42,6 @@
         & span {
             margin-right: toRem(5);
         }
-
-
     }
 
     .description__arrow {
@@ -55,7 +50,6 @@
     }
 
     &.open {
-
         .description__arrow {
             transform: rotate(90deg);
         }
@@ -85,7 +79,5 @@
         color: #000;
         line-height: 187.5%;
         max-width: 95%;
-
     }
-
 }

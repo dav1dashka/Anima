@@ -1,14 +1,13 @@
+import { NavLink } from 'react-router-dom';
+
 import { Fade } from "react-awesome-reveal";
 
 import { HiArrowLongRight } from 'react-icons/hi2';
-
 import imageOne from '../../../images/cards/cards-1.jpg'
 
 import './Discounts.scss'
-import { NavLink } from 'react-router-dom';
 
 const Discounts = () => {
-
     return (
         <>
             <section className="discounts">

@@ -2,8 +2,6 @@
 @import "../../../styles/base/mixins";
 @import "../../../styles/style";
 
-
-
 .header__mobile-nav {
     &::after {
         content: '';
@@ -85,8 +83,6 @@
             }
         }
 
-        &__contact {}
-
         &__number {
             display: flex;
             align-items: center;
@@ -97,8 +93,5 @@
             font-weight: 400;
             line-height: normal;
         }
-
-        &__phonenumber {}
     }
-
 }

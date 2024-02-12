@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 import { Fade } from 'react-awesome-reveal';
+
 import './Card.scss'
 
 const Card = (props) => {
     let { id, title, label, curPrice, prevPrice = null, discount = null, images } = props.info
-
     let cardClassName = props.clas ? props.clas : 'card'
     
     return (

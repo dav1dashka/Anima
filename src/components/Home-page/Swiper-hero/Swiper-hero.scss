@@ -3,30 +3,15 @@
 @import "../../../styles/style";
 
 .hero-swiper {
-
-    // .hero-swiper__slide
-
-    &__slide {}
-
-    // .hero-swiper__cover
-
-    &__cover {}
-
-    // .hero-swiper__image
-
     &__image {
+        margin: 0 0 0 auto;
+        position: relative;
         @include adaptiveValue("width", 1500, 310, 1440, 2560, 1);
+        @include adaptiveValue("padding-bottom", 703, 480, 1440, 2560, 1);
 
         @media (max-width: $tablet) {
             width: 100%;
         }
-
-        margin: 0 0 0 auto;
-        position: relative;
-
-        @include adaptiveValue("padding-bottom", 703, 480, 1440, 2560, 1);
-
-
 
         img {
             position: absolute;
@@ -39,8 +24,6 @@
         }
     }
 }
-
-
 
 .hero-swiper .swiper-button-prev {
     background-color: #28553F;
@@ -64,18 +47,16 @@
 }
 
 .hero-swiper .swiper-pagination.swiper-pagination-bullets-dynamic.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    transform: translate(0);
     @include adaptiveValue("left", 560, -700, 1440, 2560, 1);
 
     @media (max-width: 1440px) {
         @include adaptiveValue("left", 0, -30, 992, 1440, 1);
-
     }
 
     @media (max-width: $tablet) {
         display: none;
     }
-
-    transform: translate(0);
 }
 
 .hero-swiper .swiper-pagination-bullet.swiper-pagination-bullet-active.swiper-pagination-bullet-active-main,
@@ -87,7 +68,6 @@
 }
 
 .hero-swiper {
-
     // .hero-swiper__nav-cover
 
     &__nav-cover {
@@ -102,7 +82,6 @@
 
         @media (max-width: 1440px) {
             @include adaptiveValue("left", 80, -10, 992, 1440, 1);
-
         }
 
         @media (max-width: $tablet) {
@@ -113,18 +92,6 @@
             display: none;
         }
     }
-
-    // .hero-swiper__next-element
-
-
-
-    // .hero-swiper__icon
-
-    &__icon {}
-
-    // .hero-swiper__prev-element
-
-    &__prev-element {}
 
     &__prev-element,
     &__next-element {
@@ -145,13 +112,9 @@
             border: 1px solid #FFF;
             background-color: transparent;
         }
-
-
-
     }
 
     &__next-element {
         transform: rotate(180deg);
     }
-
 }

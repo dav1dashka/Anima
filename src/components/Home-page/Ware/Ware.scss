@@ -2,15 +2,9 @@
 @import "../../../styles/base/mixins";
 @import "../../../styles/style";
 
-
 .ware {
     @include adaptiveValue("padding-top", 60, 40, 320, 1440, 1);
     @include adaptiveValue("padding-bottom", 100, 80, 320, 1440, 1);
-    // .ware__container
-
-    &__container {}
-
-    // .ware__title
 
     &__title {
         color: #282A30;
@@ -69,7 +63,6 @@
 
         @media (max-width: $tablet) {
             flex-direction: column;
-
         }
     }
 }
@@ -80,7 +73,6 @@
 
     @media (max-width: $tablet) {
         flex-direction: column;
-
     }
 
     // .top-ware__left
@@ -92,7 +84,6 @@
 
         @media (max-width: $tablet) {
             padding: 0 0 50% 0;
-
         }
 
         @media (max-width: 500px) {
@@ -108,7 +99,6 @@
             object-fit: cover;
             object-position: center;
         }
-
     }
 
     // .top-ware__right
@@ -120,7 +110,6 @@
 
         @media (max-width: $tablet) {
             padding: 0 0 50% 0;
-
         }
 
         @media (max-width: 500px) {
@@ -136,7 +125,6 @@
             object-fit: cover;
             object-position: center;
         }
-
     }
 }
 
@@ -157,7 +145,6 @@
 
         @media (max-width: $tablet) {
             padding: 0 0 50% 0;
-
         }
 
         @media (max-width: 500px) {
@@ -185,7 +172,6 @@
 
         @media (max-width: $tablet) {
             padding: 0 0 50% 0;
-
         }
 
         @media (max-width: 500px) {
@@ -201,8 +187,6 @@
             object-fit: cover;
             object-position: center;
         }
-
-
     }
 }
 
@@ -218,7 +202,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     color: #FFF;
     font-size: toRem(24);
     font-style: normal;
@@ -227,7 +210,6 @@
     letter-spacing: 1px;
     text-transform: uppercase;
 }
-
 
 .top-ware__left::after {
     content: 'стільниці';

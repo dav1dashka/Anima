@@ -6,10 +6,6 @@
     @include adaptiveValue("padding-top", 70, 40, 320, 1440, 1);
     @include adaptiveValue("padding-bottom", 80, 60, 320, 1440, 1);
 
-    // .advantages__container
-
-    &__container {}
-
     // .advantages__title
 
     &__title {
@@ -71,8 +67,6 @@
             left: 50%;
             transform: translate(-23.2%, -50%);
 
-
-
             @media (max-width: $tablet) {
                 display: none;
             }
@@ -99,8 +93,6 @@
 
     &__middle {
         flex: 0 1 29.5%;
-
-
     }
 
     // .advantages__image
@@ -117,9 +109,7 @@
 
         @media (max-width: 500px) {
             padding: 0 0 125% 0;
-
         }
-
 
         img {
             position: absolute;
@@ -146,13 +136,9 @@
             @include adaptiveValue("padding-left", 50, 0, 320, 991.8, 1);
             @include adaptiveValue("padding-right", 50, 0, 320, 991.8, 1);
             @include adaptiveValue("row-gap", 100, 50, 320, 991.8, 1);
-
             margin-top: toRem(0);
-        
         }
     }
-
-    &__arrow-left {}
 }
 
 .text {
@@ -189,9 +175,7 @@
             @include adaptiveValue("width", 310, 0, 992, 1340, 1);
             @media (max-width: $tablet) {
                 @include adaptiveValue("width", 800, -50, 320, 991.8, 1);
-    
             }
-
         }
 
         &.right {
@@ -218,7 +202,6 @@
         border-radius: 50%;
         right: toRem(0);
         z-index: 2;
-
         color: #FFF;
         font-variant-numeric: lining-nums proportional-nums;
         font-family: Raleway;
@@ -230,8 +213,6 @@
 
         @media (max-width: $tablet) {
             bottom: -80%;
-
-
         }
     }
 
@@ -242,8 +223,6 @@
 
             @media (max-width: $tablet) {
                 right: 0;
-    
-    
             }
         }
     }
@@ -252,7 +231,6 @@
         &::before {
             content: '03';
             right: toRem(0);
-
         }
     }
 
@@ -260,22 +238,17 @@
         &::before {
             content: '04';
             left: toRem(0);
-
         }
     }
 
     &.fifth {
         &::before {
             @include adaptiveValue("left", 60, -20, 992, 1340, 1);
-
             content: '05';
-
 
             @media (max-width: $tablet) {
                 left: 0;
-    
             }
-
         }
     }
 
@@ -283,9 +256,6 @@
         &::before {
             content: '06';
             left: toRem(0);
-
         }
     }
-
-
 }

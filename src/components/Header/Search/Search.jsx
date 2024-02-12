@@ -1,13 +1,12 @@
 import { useState, useCallback, useEffect } from "react";
 
 import debounce from "lodash.debounce";
+import { Fade } from "react-awesome-reveal";
 
 import { useDispatch, useSelector } from "react-redux";
 import { setSearchOpen, setSearchInput } from "../../../redux/slices/headerSlice";
 
 import { IoSearchSharp } from 'react-icons/io5'
-
-import { Fade } from "react-awesome-reveal";
 
 import './Search.scss'
 
@@ -40,7 +39,7 @@ const Search = () => {
     }
 
     useEffect(() => {
-        window.location.pathname == "/catalog" ? dispatch(setSearchOpen(true)) : dispatch(setSearchOpen(    ));
+        window.location.pathname == "/catalog" ? dispatch(setSearchOpen(true)) : dispatch(setSearchOpen());
     }, [window.location.pathname])
 
     const updateSearchValue = useCallback(

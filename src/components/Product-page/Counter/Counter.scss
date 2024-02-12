@@ -8,15 +8,10 @@
     margin-bottom: toRem(30);
     align-items: center;
 
-
-
     span {
         color: #282A30;
         font-size: toRem(17);
-
     }
-
-   
 }
 
 .product__input {
@@ -41,7 +36,6 @@
 .product__input-cover {
     border: 1px solid #D7DADD;
     position: relative;
-
 }
 
 .product__up-triangle {
@@ -49,7 +43,6 @@
     top: 6%;
     right: 5%;
     cursor: pointer;
-
 }
 
 .product__down-triangle {
@@ -58,5 +51,4 @@
     right: 5%;
     transform: rotate(180deg);
     cursor: pointer;
-
 }

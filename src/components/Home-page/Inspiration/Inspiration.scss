@@ -5,10 +5,6 @@
 .inspiration {
     @include adaptiveValue("padding-top", 60, 40, 320, 1440, 1);
     @include adaptiveValue("padding-bottom", 100, 60, 320, 1440, 1);
-    // .inspiration__container
-
-    &__container {}
-
     // .inspiration__title
 
     &__title {
@@ -73,7 +69,6 @@
 
         @media (max-width: $tablet) {
             padding: 0px 0px 100.5% 0px;
-
         }
 
         img {
@@ -92,33 +87,26 @@
     display: flex;
     gap: toRem(20);
     flex-wrap: wrap;
-
     flex: 1 1 55%;
 
     @media (max-width: 540px) {
         flex-direction: column;
-
     }
 
     // .right-inspiration__image
 
     &__image {
         flex: 0 1 48%;
-
         position: relative;
         padding: 0px 0px 5% 0px;
 
         @media (max-width: $tablet) {
             padding: 0px 0px 60.5% 0px;
-
         }
 
         @media (max-width: 540px) {
             padding: 0px 0px 80.5% 0px;
-
-
         }
-
 
         img {
             position: absolute;
@@ -133,9 +121,6 @@
 }
 
 .inspiration {
-
-    // .inspiration__watch-all
-
     &__watch-all {
         display: flex;
         margin-top: toRem(20);
@@ -148,7 +133,6 @@
             line-height: 288.889%;
             padding: 0 toRem(28);
             display: block;
-
         }
 
         span {

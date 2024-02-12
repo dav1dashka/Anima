@@ -3,7 +3,6 @@ import { Fade } from "react-awesome-reveal";
 import "./Quest.scss"
 
 const Quest = () => {
-
     return (
         <>
             <section className="quest">

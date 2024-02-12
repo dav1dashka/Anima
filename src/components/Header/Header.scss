@@ -2,7 +2,6 @@
 @import "../../styles/base/mixins";
 @import "../../styles/style";
 
-
 .header {
 	position: relative;
 	width: 100%;
@@ -28,7 +27,6 @@
 	&.menu-open {
 		&::after {
 			transform: translateX(0%);
-
 		}
 	}
 
@@ -96,10 +94,6 @@
 
 	}
 
-	// .header__top
-
-	&__top {}
-
 	// .header__bottom
 
 	&__bottom {
@@ -112,15 +106,7 @@
 		}
 
 	}
-
-	// .header__nav
-
-	&__nav {}
-
-	&__mobile-nav {}
 }
-
-
 
 .top-header {
 	display: flex;
@@ -134,8 +120,6 @@
 
 	&__cover {
 		position: relative;
-
-
 	}
 
 	&__info {
@@ -157,10 +141,8 @@
 		position: relative;
 		z-index: 6;
 
-
 		@media (max-width: $tablet) {
 			margin-right: 0;
-
 		}
 
 		@media (max-width: $mobile) {
@@ -170,9 +152,7 @@
 		& svg {
 			height: toRem(20);
 			width: toRem(20);
-
 		}
-
 	}
 
 	// .top-header__number
@@ -180,9 +160,6 @@
 	&__number {
 		display: flex;
 		column-gap: toRem(7);
-
-
-
 	}
 
 	// .top-header__phonenumber
@@ -194,13 +171,7 @@
 		font-style: normal;
 		font-weight: 400;
 		line-height: normal;
-
-
 	}
-
-	// .top-header__search
-
-	&__search {}
 }
 
 
@@ -256,10 +227,6 @@
 
 
 }
-
-
-
-//====================================================================================================
 
 //Burger
 

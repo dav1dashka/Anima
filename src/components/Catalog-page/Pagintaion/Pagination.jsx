@@ -1,4 +1,5 @@
 import ReactPaginate from 'react-paginate';
+
 import { AiOutlineCaretRight } from 'react-icons/ai'
 import { AiOutlineCaretLeft } from 'react-icons/ai'
 
@@ -21,6 +22,5 @@ const Pagination = ({onChangePage}) => {
         </>
     )
 }
-
 
 export default Pagination;

@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { RxTriangleRight } from 'react-icons/rx'
 
-
 import './Description.scss'
 
 const Description = () => {
@@ -11,7 +10,7 @@ const Description = () => {
     let spollerClass = 'description__info open';
 
     isSpollerOpen ? spollerClass = 'description__info open' : spollerClass = 'description__info';
-    
+
     const { card } = useSelector(state => state.cardSlice)
 
     return (
@@ -32,6 +31,5 @@ const Description = () => {
         </>
     )
 }
-
 
 export default Description;

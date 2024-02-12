@@ -2,13 +2,10 @@
 @import "../../../styles/base/mixins";
 @import "../../../styles/style";
 
-
 .discounts {
     @include adaptiveValue("padding-top", 60, 40, 320, 1440, 1);
     @include adaptiveValue("padding-bottom", 60, 40, 320, 1440, 1);
-
     background: url('../../../images/discounts/discounts-bg.jpg') 100% / cover no-repeat;
-    // .discounts__container
 
     &__container {
         display: flex;
@@ -46,16 +43,12 @@
         margin-top: auto;
         margin-bottom: auto;
 
-
         @media (max-width: $tablet) {
             padding: toRem(55) toRem(25) toRem(47) toRem(120);
-
         }
 
         @media (max-width: 500px) {
             padding: toRem(55) toRem(17) toRem(47) toRem(100);
-
-
         }
     }
 
@@ -100,14 +93,12 @@
         font-weight: 400;
         line-height: normal;
         margin-bottom: toRem(41);
-
     }
 
     // .discounts__cover
 
     &__cover {
         display: flex;
-
     }
 
     // .discounts__button
@@ -136,9 +127,6 @@
         }
     }
 
-    // .discounts__right
-
-    &__right {}
 }
 
 .right-discounts {
@@ -187,10 +175,6 @@
             justify-content: center;
         }
     }
-
-    // .right-discounts__card
-
-    &__card {}
 }
 
 .card-discounts {
@@ -199,8 +183,9 @@
     background: rgba(255, 255, 255, 0.96);
 
     @media (max-width: 886.8px) {
-       width: toRem(320);
+        width: toRem(320);
     }
+
     // .card-discounts__image
 
     &__image {

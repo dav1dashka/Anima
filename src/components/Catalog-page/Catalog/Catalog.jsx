@@ -1,15 +1,12 @@
 import { useState, useEffect, useRef } from 'react';
+import { useNavigate, NavLink } from 'react-router-dom';
 
 import { Fade } from "react-awesome-reveal";
-
 import QueryString from 'qs';
 
 import { useSelector, useDispatch } from 'react-redux';
 import { setMenuOption, setSelectedOption, setSelectedOptionTwo, setCurrentPage, setFilters } from '../../../redux/slices/filterSlice';
 import { fetchCards } from '../../../redux/slices/cardsSlice';
-
-import { useNavigate, NavLink } from 'react-router-dom';
-import { RxTriangleRight } from 'react-icons/rx'
 
 import Header from "../../Header/Header";
 import Burger from '../../Header/Burger/Burger';
@@ -20,6 +17,8 @@ import Skeleton from '../Skeleton/Skeleton'
 import CustomSelect from '../Select/Select';
 import Pagination from '../Pagintaion/Pagination';
 import Quest from '../../Quest/Quest'
+
+import { RxTriangleRight } from 'react-icons/rx'
 
 import './Catalog.scss'
 
@@ -136,7 +135,6 @@ const Catalog = () => {
         } else {
             return false
         }
-
     }).map((item, index) => (<Card key={index} info={item} />));
 
     let skeleton = [... new Array(9)].map((_, i) => (<Skeleton key={i} />));

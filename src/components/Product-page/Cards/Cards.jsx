@@ -1,8 +1,8 @@
 import Card from '../Card/Card';
+
 import './Cards.scss'
 
 const Cards = () => {
-
     let productCards = [
         {
             id: 1,
@@ -21,15 +21,13 @@ const Cards = () => {
         }
     ]
 
-
     return (
         <>
             <div className="product__cards">
-                {<Card/> && productCards.map((item, index) => (<Card key={index} info={item} />))}
+                {<Card /> && productCards.map((item, index) => (<Card key={index} info={item} />))}
             </div>
         </>
     )
 }
-
 
 export default Cards;

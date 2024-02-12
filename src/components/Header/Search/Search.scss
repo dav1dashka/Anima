@@ -2,7 +2,6 @@
 @import "../../../styles/base/mixins";
 @import "../../../styles/style";
 
-
 .search-top-header {
 
     @media (max-width: $mobile) {
@@ -49,7 +48,6 @@
             position: relative;
             transform: translateY(20%);
             z-index: 6;
-
         }
 
         &.open {
@@ -59,8 +57,6 @@
                 transform: translateY(20%);
             }
         }
-
-
     }
 
     // .search-top-header__input

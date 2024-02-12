@@ -1,10 +1,11 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+
 import { useSelector, useDispatch } from "react-redux";
+import { setCardCurPrice, setCardPrevPrice } from '../../../redux/slices/cardSlice';
+
 import { IoTriangle } from 'react-icons/io5'
 
 import './Counter.scss'
-import { useEffect } from 'react';
-import { setCardCurPrice, setCardPrevPrice } from '../../../redux/slices/cardSlice';
 
 const Counter = () => {
     const dispatch = useDispatch();
@@ -56,7 +57,7 @@ const Counter = () => {
             dispatch(setCardPrevPrice(Math.round(card.prevPrice - staticPrevPrice)))
         }
     }
-   
+
     return (
         <>
             <div className="product__amount">

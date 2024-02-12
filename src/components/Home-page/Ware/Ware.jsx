@@ -10,20 +10,19 @@ import imageFour from '../../../images/ware/ware-4.jpg'
 import './Ware.scss'
 
 const Ware = () => {
-
     return (
         <>
             <section className="ware">
                 <div className="ware__container">
                     <Fade
                         triggerOnce={true}
-                         
+
                     >
                         <h2 className="ware__title">Вироби з<br />  <strong>натурального каменя</strong></h2>
                     </Fade>
                     <Fade
                         triggerOnce={true}
-                         
+
                     >
                         <div className="ware__watch-all">
                             <a href="">
@@ -35,7 +34,7 @@ const Ware = () => {
                     <div className="ware__cover">
                         <Fade
                             triggerOnce={true}
-                             
+
                         >
                             <div className="ware__cover__top top-ware">
                                 <div className="top-ware__left">
@@ -48,7 +47,7 @@ const Ware = () => {
                         </Fade>
                         <Fade
                             triggerOnce={true}
-                             
+
                         >
                             <div className="ware__cover__bottom bottom-ware">
                                 <div className="bottom-ware__left">

@@ -2,9 +2,7 @@
 @import "../../../styles/base/mixins";
 @import "../../../styles/style";
 
-
 .product__info {
-
     button {
         color: #282A30;
         font-size: toRem(17);
@@ -20,7 +18,6 @@
     }
 
     &.open {
-
         .product__arrow {
             transform: rotate(90deg);
         }
@@ -38,7 +35,6 @@
         max-height: toRem(210);
         margin-bottom: 1.48rem;
     }
-
 
     // .characteristics-product__item
 
@@ -62,12 +58,10 @@
 
                 @media (max-width: 600px) {
                     flex: 0 1 40%;
-
                 }
 
                 @media (max-width: 400px) {
                     flex: 0 1 60%;
-
                 }
             }
         }

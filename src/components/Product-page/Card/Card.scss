@@ -2,14 +2,6 @@
 @import "../../../styles/base/mixins";
 @import "../../../styles/style";
 
-
-.product {
-
-    // .product__card
-
-    &__card {}
-}
-
 .card-product {
     position: relative;
     flex: 0 1 33.333%;
@@ -17,13 +9,10 @@
 
     @media (max-width: 880px) {
         flex: 0 1 50%;
-
     }
 
     @media (max-width: 480px) {
         flex: 0 1 100%;
-
-
     }
 
     &::after {
@@ -37,13 +26,11 @@
 
         @media (max-width: 880px) {
             display: none;
-
         }
 
         @media (max-width: 480px) {
             display: block;
             top: toRem(40);
-
         }
     }
 
@@ -59,15 +46,8 @@
 
         @media (max-width: 600px) {
             top: toRem(40);
-
         }
     }
-
-    // .card-product__cover
-
-    &__cover {}
-
-    // .card-product__title
 
     &__title {
         display: flex;

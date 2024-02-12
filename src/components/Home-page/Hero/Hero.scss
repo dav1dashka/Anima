@@ -12,21 +12,13 @@
 
     &.hero-open {
         height: 100vh;
-
     }
 }
 
-
-
 .hero {
-
     &__cover {
         padding: toRem(30) 0;
     }
-
-    // .hero__info
-
-    &__info {}
 }
 
 .info-hero {
@@ -36,7 +28,6 @@
 
     @media (max-width: 1440px) {
         @include adaptiveValue("left", -20, -10, 992, 1440, 1);
-
     }
 
     @media (max-width: $tablet) {
@@ -47,11 +38,6 @@
         top: toRem(380);
         left: 0;
     }
-
-
-
-
-
     z-index: 1;
     background-color: #000;
     // .info-hero__cover
@@ -64,18 +50,14 @@
             @include adaptiveValue("padding-bottom", 58, 0, 992, 1440, 1);
             @include adaptiveValue("padding-left", 100, 0, 992, 1440, 1);
             @include adaptiveValue("padding-right", 63, 0, 992, 1440, 1);
-
-
         }
 
         @media (max-width: $tablet) {
             padding: toRem(30) toRem(40) toRem(30) toRem(40);
-
         }
 
         @media (max-width: 530px) {
             padding: toRem(20) toRem(20) toRem(20) toRem(20);
-
         }
     }
 
@@ -124,8 +106,6 @@
 
         @media (max-width: 530px) {
             font-size: toRem(32);
-
-
         }
     }
 
@@ -137,7 +117,6 @@
 
         @media (max-width: 400px) {
             column-gap: toRem(10);
-
         }
     }
 

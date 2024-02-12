@@ -2,11 +2,7 @@
 @import "../../../../styles/base/mixins";
 @import "../../../../styles/style";
 
-.swiper-item {}
-
 .item-swiper {
-
-
     &__slide {
         width: 110px;
 
@@ -26,15 +22,10 @@
 }
 
 .product-item-swiper {
-
-    // .product-item-swiper__prev-element
-
     &__prev-element {
         top: 0;
         left: -35px;
-
         @include adaptiveValue("left", -35, 50, 992, 1100, 1);
-
     }
 
     &__prev-element,
@@ -66,11 +57,9 @@
     &__next-element {
         top: 0;
         right: -38px;
+
         @media (max-width: 1100px) {
             @include adaptiveValue("right", -38, 80, 992, 1100, 1);
         }
-
     }
-
-
 }

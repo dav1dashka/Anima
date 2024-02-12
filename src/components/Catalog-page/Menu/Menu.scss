@@ -2,17 +2,13 @@
 @import "../../../styles/base/mixins";
 @import "../../../styles/style";
 
-
-
-
 .menu {
   width: 18rem;
+  background: #F9F9F9;
 
   @media (max-width: 1100px) {
     width: 15rem;
-
-}
-  background: #F9F9F9;
+  }
 
   @media (max-width: $tablet) {
     border: 1px solid #28553F;
@@ -30,8 +26,6 @@
   @media (max-width: 400px) {
     left: toRem(-420);
     width: 110%;
-
-    &.open {}
   }
 
   // .menu__cover
@@ -41,13 +35,10 @@
 
     @media (max-width: $tablet) {
       padding: toRem(10) toRem(15) 0 toRem(15);
-
     }
   }
 
 }
-
-.spoiler {}
 
 .toggle-button {
   position: relative;
@@ -56,7 +47,6 @@
 .toggle-button,
 .spoiler {
   color: #9C9C9C;
-
 }
 
 .toggle-button.first {
@@ -65,8 +55,6 @@
   font-style: normal;
   font-weight: 500;
   padding: toRem(20) 0;
-
-
 }
 
 .toggle-button.first.open {
@@ -74,7 +62,6 @@
 
   &.line {
     border-bottom: toRem(1) solid #E5E5E5;
-
   }
 
   .spoiler__arrow {
@@ -86,7 +73,6 @@
 
 
 .spoller {
-
   // .spoller__items
 
   &__items-second {
@@ -100,15 +86,12 @@
   }
 }
 
-
-
 .toggle-button.second {
   color: #9C9C9C;
   font-size: toRem(14);
   font-style: normal;
   font-weight: 500;
   padding: toRem(15) 0 toRem(15) toRem(10);
-
 }
 
 .spoiler-second.open {
@@ -117,9 +100,7 @@
 
     &.line {
       border-bottom: toRem(1) solid #E5E5E5;
-
     }
-
   }
 
   .spoiler__arrow {
@@ -129,8 +110,6 @@
 
   .spoller__items-second.line {
     border-bottom: toRem(1) solid #F9F9F9;
-
-
   }
 
 }
@@ -151,13 +130,11 @@
 
   &.open {
     padding: toRem(0) toRem(0) 0px toRem(0);
-
   }
 }
 
 .spoiler-second {
   padding: toRem(0) toRem(0) toRem(45) toRem(0);
-
 }
 
 .spoiler.open {
@@ -173,8 +150,6 @@
 
   &.line {
     border-bottom: toRem(1) solid #F9F9F9;
-    ;
-
   }
 }
 
@@ -185,12 +160,10 @@
 
   &:hover {
     color: #28553F;
-
   }
 
   &.clicked {
     color: #28553F;
-
   }
 }
 
@@ -198,7 +171,6 @@
   width: 100%;
   text-align: left;
   position: relative;
-
   color: #9C9C9C;
   font-size: toRem(14);
   font-style: italic;

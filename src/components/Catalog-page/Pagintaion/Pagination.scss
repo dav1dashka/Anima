@@ -5,8 +5,8 @@
 .pagination {
     display: flex;
     gap: toRem(32);
-    max-width: fit-content;
     max-width: -moz-fit-content;
+    max-width: fit-content;
     margin: 0 auto;
     align-items: center;
 

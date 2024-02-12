@@ -3,7 +3,6 @@ import { MdArrowBackIos } from 'react-icons/md';
 import './Menu.scss'
 
 const Menu = ({ menuState, setMenuState, onChangeSelect }) => {
-
     const toggleSpollers = ((e) => {
         e.parentElement.classList.toggle('open')
         e.classList.toggle('open')
@@ -129,6 +128,5 @@ const Menu = ({ menuState, setMenuState, onChangeSelect }) => {
         </>
     )
 }
-
 
 export default Menu;

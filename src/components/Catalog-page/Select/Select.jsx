@@ -30,7 +30,7 @@ const CustomSelect = ({ options, onChange, value }) => {
                     {option[1]}
                 </li>
             )))
-        
+
     }, [containsNumbers])
 
     return (

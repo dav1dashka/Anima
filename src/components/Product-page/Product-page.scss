@@ -2,14 +2,9 @@
 @import "../../styles/base/mixins";
 @import "../../styles/style";
 
-main {}
-
 .product {
     color: black;
-    // .product__container
     position: relative;
-
-    &__container {}
 
     // .product__bread
 
@@ -60,7 +55,6 @@ main {}
 
         @media (max-width: $mobile) {
             font-size: toRem(36);
-
         }
     }
 
@@ -92,8 +86,6 @@ main {}
             }
         }
     }
-
-
 }
 
 .product__cover {

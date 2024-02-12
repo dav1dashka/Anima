@@ -11,14 +11,13 @@ import imageFifth from "../../../images/inspiration/inspiration-5.jpg"
 import "./Inspiration.scss"
 
 const Inspiration = () => {
-
     return (
         <>
             <section className="inspiration">
                 <div className="inspiration__container">
                     <Fade
                         triggerOnce={true}
-                         
+
                     >
                         <h2 className="inspiration__title">Ідеї для <br />  <strong>натхнення</strong></h2>
                     </Fade>
@@ -26,7 +25,7 @@ const Inspiration = () => {
                         <div className="inspiration__left left-inspiration">
                             <Fade
                                 triggerOnce={true}
-                                 
+
                             >
                                 <div className="left-inspiration__image">
                                     <img src={imageOne} alt="" />
@@ -37,7 +36,7 @@ const Inspiration = () => {
                             <div className="right-inspiration__image">
                                 <Fade
                                     triggerOnce={true}
-                                     
+
                                 >
                                     <img src={imageSecond} alt="" />
                                 </Fade>
@@ -45,7 +44,7 @@ const Inspiration = () => {
                             <div className="right-inspiration__image">
                                 <Fade
                                     triggerOnce={true}
-                                     
+
                                 >
                                     <img src={imageThird} alt="" />
                                 </Fade>
@@ -53,7 +52,7 @@ const Inspiration = () => {
                             <div className="right-inspiration__image">
                                 <Fade
                                     triggerOnce={true}
-                                     
+
                                 >
                                     <img src={imageFourth} alt="" />
                                 </Fade>
@@ -61,7 +60,7 @@ const Inspiration = () => {
                             <div className="right-inspiration__image">
                                 <Fade
                                     triggerOnce={true}
-                                     
+
                                 >
                                     <img src={imageFifth} alt="" />
                                 </Fade>
@@ -70,7 +69,7 @@ const Inspiration = () => {
                     </div>
                     <Fade
                         triggerOnce={true}
-                         
+
                     >
                         <div className="inspiration__watch-all">
                             <a href="">

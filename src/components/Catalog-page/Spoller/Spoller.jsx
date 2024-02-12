@@ -1,14 +1,7 @@
-
 import { useState } from 'react';
 
-import { MdArrowBackIos } from 'react-icons/md';
-{/* <MdArrowBackIos className='advantages__arrow-left' style={{'color': '#28553F', 'transform': 'rotate(-90deg)'}} />  */ }
-
-
 const Spoller = (props) => {
-
     const [spoilerState, setSpoilerState] = useState(false);
-    console.log(props.props)
     return (
         <>
             <div>
@@ -17,7 +10,6 @@ const Spoller = (props) => {
                 </button>
                 {props.props}
             </div>
-
         </>
     )
 }

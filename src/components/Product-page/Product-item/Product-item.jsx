@@ -1,5 +1,3 @@
-import { useEffect, useState, useRef } from 'react';
-
 import { useSelector } from 'react-redux';
 
 import Spoller from '../Spoller/Spoller';
@@ -9,7 +7,6 @@ import ItemSwiper from './Item-swiper/Item-swiper';
 import ItemMainImage from './Item-main-image/Item-main-image';
 
 import greenYes from '../../../images/product-page/greenYes.svg'
-import image from '../../../images/product-page/01.jpg'
 import { MdArrowBackIos, MdDoNotDisturb } from 'react-icons/md';
 
 import './Product-item.scss'
@@ -44,10 +41,10 @@ const ProductItem = () => {
                 </div>
                 <div className="product__right">
                     <div className="available">
-                        {card.sort.includes("available") 
-                        ? <><img src={greenYes} alt="" /><span>У наявності</span></>
-                        : <><MdDoNotDisturb fill='red' size={24} /><span style={{'color': 'red'}}>У наявності немає</span></>
-                    }
+                        {card.sort.includes("available")
+                            ? <><img src={greenYes} alt="" /><span>У наявності</span></>
+                            : <><MdDoNotDisturb fill='red' size={24} /><span style={{ 'color': 'red' }}>У наявності немає</span></>
+                        }
                     </div>
                     <div className="product__price">
                         <div className="product__price-cover">
@@ -68,6 +65,5 @@ const ProductItem = () => {
         </>
     )
 }
-
 
 export default ProductItem;

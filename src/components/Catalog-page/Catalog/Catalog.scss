@@ -5,9 +5,6 @@
 .catalog {
     @include adaptiveValue("padding-top", 60, 40, 320, 1440, 1);
     @include adaptiveValue("padding-bottom", 60, 40, 320, 1440, 1);
-    // .catalog__container
-
-    &__container {}
 
     // .catalog__title
 
@@ -192,8 +189,6 @@
         }
     }
 }
-
-
 
 .custom-select {
     position: relative;

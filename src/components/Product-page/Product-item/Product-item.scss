@@ -2,8 +2,6 @@
 @import "../../../styles/base/mixins";
 @import "../../../styles/style";
 
-
-
 .product {
     &__item {
         display: flex;
@@ -26,7 +24,6 @@
 
         @media (max-width: $tablet) {
             margin-bottom: toRem(25);
-
         }
     }
 
@@ -39,7 +36,6 @@
 
         @media (max-width: $mobile) {
             margin-bottom: toRem(17);
-
         }
 
         img {
@@ -62,10 +58,7 @@
 
         @media (max-width: $tablet) {
             width: 80%;
-
         }
-
-        @media (max-width: $mobile) {}
     }
 
     .product-item-swiper__icon-left {
@@ -122,9 +115,6 @@
 
             @media (max-width: 600px) {
                 font-size: toRem(33);
-
-
-
             }
         }
 
@@ -167,7 +157,6 @@
 
         @media (max-width: 600px) {
             gap: toRem(15);
-
         }
 
         button {
@@ -188,13 +177,10 @@
 
         @media (max-width: 1070px) {
             padding: toRem(15.5) toRem(45);
-
         }
 
         @media (max-width: 600px) {
             padding: toRem(12) toRem(38);
-
-
         }
     }
 
@@ -215,8 +201,6 @@
 
         @media (max-width: 600px) {
             padding: toRem(12) toRem(20);
-
-
         }
 
     }

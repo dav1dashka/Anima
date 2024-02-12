@@ -1,4 +1,3 @@
-
 import greenYes from '../../../images/product-page/greenYes.svg'
 
 import './Card.scss'
@@ -18,6 +17,5 @@ const Card = (props) => {
         </>
     )
 }
-
 
 export default Card;

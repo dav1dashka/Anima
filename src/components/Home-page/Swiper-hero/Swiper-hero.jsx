@@ -1,18 +1,17 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-
-import "./Swiper-hero.scss";
-
 import imageOne from '../../../images/hero/hero-1.jpg';
 import imageTwo from '../../../images/hero/hero-2.jpg';
 import imageThree from '../../../images/hero/hero-3.jpg';
 
 import { MdArrowBackIos } from 'react-icons/md';
 
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+import "./Swiper-hero.scss";
 
 const SwiperHero = () => {
   return (

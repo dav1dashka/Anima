@@ -4,6 +4,7 @@ import { Fade } from "react-awesome-reveal";
 
 import Header from '../Header/Header';
 import Burger from '../Header/Burger/Burger';
+
 import './404.scss'
 
 const NotFound = () => {

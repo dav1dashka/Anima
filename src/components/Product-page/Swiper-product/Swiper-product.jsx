@@ -1,22 +1,20 @@
-import { useSelector, useDispatch } from 'react-redux';
-
 import { useEffect } from 'react';
-import { fetchCards } from '../../../redux/slices/cardsSlice';
 
+import { useSelector, useDispatch } from 'react-redux';
+import { fetchCards } from '../../../redux/slices/cardsSlice';
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 
 import Card from '../../Catalog-page/Card/Card';
 
+import { MdArrowBackIos } from 'react-icons/md';
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import "./Swiper-product.scss";
-
-import { MdArrowBackIos } from 'react-icons/md';
-
 
 const SwiperProduct = () => {
     const dispatch = useDispatch();
